@@ -1,0 +1,30 @@
+MIT License
+
+Copyright (c) 2026 dsh-macos-automation contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+注意：本许可证只覆盖本包自身的 TypeScript 代码与文档。
+
+本包不包含、也不再分发 https://github.com/AutumnFruit-1999/MacOS-Skills 的
+Swift 源码或编译产物。该上游仓库当前未声明任何开源许可证（无 LICENSE 文件），
+因此使用其源码 / 二进制前请自行联系作者取得授权。本包只在运行时调用本机已有的
+`macos` 命令，或在用户自己 clone 上游后用 `npm run build:cli` 在本机编译。

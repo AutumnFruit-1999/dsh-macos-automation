@@ -1,0 +1,12 @@
+# 注册 macOS 自动化工具集。挂在本 profile 的 bundle 层，因此「已安装插件」里
+# 的开关（增删 dsh.profile.bundles 里的包名）就是它唯一的启停入口。
+#
+# 不在这里写 config：binaryPath 默认 `macos`，由 src/binary.ts 在 PATH 之外
+# 继续探测 ~/.local/bin、/opt/homebrew/bin、/usr/local/bin、~/bin —— 这样包本身
+# 可以原样分发给别人，不需要带上某台机器的绝对路径。
+# 需要覆盖时，在 profile 的 cordis.patch.yml 里按 id 覆盖：
+#   - id: macos-automation
+#     config: { binaryPath: /absolute/path/to/macos }
+- insert:
+    - id: macos-automation
+      name: 'dsh-macos-automation'
